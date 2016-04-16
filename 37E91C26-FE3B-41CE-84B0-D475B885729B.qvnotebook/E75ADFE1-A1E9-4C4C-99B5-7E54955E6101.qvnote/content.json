@@ -1,0 +1,72 @@
+{
+  "title": "Positioning - Display",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<h3>Display:block</h3>"
+    },
+    {
+      "type": "text",
+      "data": "When you have block level elements and you set a margin for them, the margin on the top and bottom levels will combine. So if I set margin to 10 px and have to blocks stacked, instead of there being 20px between them there will only be 10 px."
+    },
+    {
+      "type": "text",
+      "data": "<h3>Display:inline</h3>"
+    },
+    {
+      "type": "text",
+      "data": "The inline elements will ignore top and bottom margin. But left and right margin will not combine like block level elements. So if I set a 10 px margin then the top and bottom will be ignored, and then you will have 20 px between the items."
+    },
+    {
+      "type": "text",
+      "data": "<h3>Display:inline-Block</h3>"
+    },
+    {
+      "type": "text",
+      "data": "The inline-block elements have behavior like both inline and block. So the inline-block elements have a top left bottom and right margin."
+    },
+    {
+      "type": "text",
+      "data": "<h3>Display: table-cell</h3>"
+    },
+    {
+      "type": "text",
+      "data": "This completely gets rid of any margin and tries to treat the element as though it was the cell of a table."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<div>A</div>\n<div>B</div>\n<span>c</span>\n<span>D</span>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "div {\n  padding: 25px;\n  background: rgbap(179, 204, 255,1);\n  margin: 10px;\n}\n\nspan {\n  padding: 10px;\n  background: rgba(255, 169, 174, 1);\n  margin: 10px;\n}"
+    },
+    {
+      "type": "text",
+      "data": "<img src=\"quiver-image-url/696C6C858295C07D8671A41302473E84.png\" alt=\"Screen Shot 2016-04-16 at 2.50.33 PM.png\">"
+    },
+    {
+      "type": "text",
+      "data": "<h3>Same Code as above just Displayed inline block on all elements.</h3>"
+    },
+    {
+      "type": "text",
+      "data": "<img src=\"quiver-image-url/FFC26E86C995F8E805AD896277EDE59C.png\" alt=\"Screen Shot 2016-04-16 at 2.58.09 PM.png\">"
+    },
+    {
+      "type": "text",
+      "data": "<h3>Table Cell</h3><br>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "div {\n    /* I display block by default */\n    padding: 25px;\n    background: rgba(179, 204, 255, 1);\n    margin: 10px;\n    width: 100px;\n    display: table-cell;\n}\n\nspan {\n    /* I display inline by default */\n    padding: 10px;\n    background: rgba(255, 169, 174, 1);\n    margin: 10px;\n    width: 100px;\n    display: table-cell;\n}"
+    },
+    {
+      "type": "text",
+      "data": "<img src=\"quiver-image-url/E09A34F46A8E2378AD2BD08AB670E5F2.png\" alt=\"Screen Shot 2016-04-16 at 3.02.20 PM.png\">"
+    }
+  ]
+}

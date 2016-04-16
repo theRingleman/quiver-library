@@ -1,0 +1,118 @@
+{
+  "title": "CSS Selectors",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<h3><b>Descendent Selector</b></h3>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "#nav li {\n  color: black;\n}"
+    },
+    {
+      "type": "text",
+      "data": "This selects elements that are descendants of the matching selector name. So in the example this will only style li tags that are nested within the id of nav."
+    },
+    {
+      "type": "text",
+      "data": "<h3>Child Selector<br></h3>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "#list > li {\n  color: black;\n}"
+    },
+    {
+      "type": "text",
+      "data": "Select only the elements that are direct children of the matching selector name.<br>"
+    },
+    {
+      "type": "text",
+      "data": "<h3>Sibling Selector</h3>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "h3 + p {\n  color: black;\n}"
+    },
+    {
+      "type": "text",
+      "data": "Selects only sibling elements that appear directly after the matching selector name."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<h3>An h3 Element</h3>\n<p>I am a p directly after and h3 element</p>\n<p>Not selected</p>"
+    },
+    {
+      "type": "text",
+      "data": "So this example the css will only grab the p that is directly after the h3 element. It would not grab it if it was a child."
+    },
+    {
+      "type": "text",
+      "data": "<h3>Preceded Selector</h3>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": ".styleafter ~ h2 {\n  color: black;\n}"
+    },
+    {
+      "type": "text",
+      "data": "Styles all matched elements preceding after the selector name<br>"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<p class=\"styleafter\">Class of styleafter.</p>\n<h2>I'm an h2 positioned after.</h2>"
+    },
+    {
+      "type": "text",
+      "data": "Now this will grab multiple h2 tags that come after the named element.&nbsp;"
+    },
+    {
+      "type": "text",
+      "data": "<h3>Universal</h3>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "* {\n  color:black;\n}"
+    },
+    {
+      "type": "text",
+      "data": "This will style anything that has not been previously styled by anything else.&nbsp;"
+    },
+    {
+      "type": "text",
+      "data": "<h3>Attribute Selector</h3>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "img[alt=\"Cat\"] {\n  border: 1px solid black;\n}"
+    },
+    {
+      "type": "text",
+      "data": "Selects elements who have an attribute with matching value condition."
+    },
+    {
+      "type": "text",
+      "data": "<h3>Pseudo Class Selector</h3>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "a:link {\n text-decoration: none; \n}"
+    },
+    {
+      "type": "text",
+      "data": "Selects elements based on a particular event state or relationship among other elements."
+    },
+    {
+      "type": "text",
+      "data": "<h3><a href=\"https://css-tricks.com/pseudo-class-selectors/\">https://css-tricks.com/pseudo-class-selectors/</a></h3>"
+    }
+  ]
+}

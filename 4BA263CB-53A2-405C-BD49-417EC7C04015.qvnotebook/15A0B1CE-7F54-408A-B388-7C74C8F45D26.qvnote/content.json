@@ -1,0 +1,13 @@
+{
+  "title": "Branching",
+  "cells": [
+    {
+      "type": "text",
+      "data": "git branch &lt;branch name&gt;<div>&nbsp; This allows you to create a new branch off of your current repository,</div><div>&nbsp; Using git status also tells you which branch you are currently on</div><div><br></div><div>git checkout &lt;branch name&gt;</div><div>&nbsp; This allows you to switch between branches</div><div><br></div><div>git checkout -b new-branch-name</div><div>&nbsp; This will create your new branch and switch you into a the new branch all</div><div>&nbsp; at the same time.</div><div><br></div><div>git merge</div><div>&nbsp; It is important to be currently working on your target branch before merging</div><div>&nbsp; branches.</div><div><br></div><div>git fetch</div><div>&nbsp; This will update your local repository with all the branches that are loaded on</div><div>&nbsp; GitHub.</div><div><br></div><div>DONT USE GIT FETCH UNLESS YOU DONT WANT TO MERGE</div><div>&nbsp; Git pull gets all of the branches and merges them locally on your machine</div><div><br></div><div>git push -u origin &lt;branch name&gt;</div><div>&nbsp; This is for when you first push a new branch</div><div><br></div><div><br></div>"
+    },
+    {
+      "type": "text",
+      "data": "/Users/Sam/Library/Containers/com.happenapps.Quiver/Data/Library/Application Support/Quiver/Quiver.qvlibrary"
+    }
+  ]
+}

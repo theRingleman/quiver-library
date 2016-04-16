@@ -1,0 +1,9 @@
+{
+  "title": "File Manuevering",
+  "cells": [
+    {
+      "type": "text",
+      "data": "foldername/<div>&nbsp; go inside a the folder</div><div><br></div><div>filename</div><div>&nbsp; use a file in the current folder</div><div><br></div><div>../</div><div>&nbsp; leave the current folder and go up to parent folder.</div>"
+    }
+  ]
+}

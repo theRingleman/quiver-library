@@ -1,0 +1,43 @@
+{
+  "title": "Float!!!",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<img src=\"quiver-image-url/901DBE1A1D45A3AD7A98BCC080010D82.png\" alt=\"Screen Shot 2016-04-16 at 3.03.45 PM.png\">"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "data": "<header>\n  <ul>\n    <li>Home</li>\n    <li>About</li>\n    <li>Contact</li>\n  </ul>\n</header>\n<article>\n  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe odit, architecto est nostrum libero expedita suscipit quo quod ab incidunt consectetur officiis consequuntur cumque deserunt blanditiis, praesentium labore quibusdam doloremque!</p>\n</article>\n<aside>\n  <ul>\n    <li>Stuff</li>\n    <li>More Stuff</li>\n    <li>Even More Stuff</li>\n  </ul>\n</aside>\n<footer>\n  <p>&copy; Sam Ringleman</p>\n</footer>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "header {\n  border: 1px solid black;\n  background: green;\n  color: white;\n  margin:10px;\n  border-radius: 5px;\n  padding-left: 5px;\n  padding: 10px 10px;\n}\n\narticle {\n  height: 200px;\n  width: 72%;\n  border: 1px solid black;\n  border-radius: 5px;\n  margin: 0px 10px 10px;\n  background: rgba(94, 176, 224, 1);\n  float: left;\n  padding: 5px 5px 0 5px;\n}\n\naside {\n  height: 150px;\n  width: 23%;\n  border: 1px solid black;\n  border-radius: 5px;\n  float: left;\n  background: rgb(249, 193, 140);\n  padding: 5px 0 0 5px;\n}\n\nfooter {\n  float: clear;\n  border: 1px solid black;\n  border-radius: 5px;\n  background: rgb(119, 87, 106);\n  margin: 10px;\n  color: #fff;\n  clear: both;\n  padding: 5px;\n}\n\nheader ul li {\n  display: inline-block;\n  padding: 5px;\n}"
+    },
+    {
+      "type": "text",
+      "data": "<img src=\"quiver-image-url/10EF8CCEB84662E29CE00DB2E83C655D.png\" alt=\"Screen Shot 2016-04-16 at 3.35.45 PM.png\">"
+    },
+    {
+      "type": "text",
+      "data": "Float will make all the elements below the one being floated react. So the article and the aside are floated left this allows them to line up with each other on the top and left sides. The footer has been cleared so it can sit at the bottom of the page."
+    },
+    {
+      "type": "text",
+      "data": "<h3>This is what happens when you dont clear the footer</h3>"
+    },
+    {
+      "type": "text",
+      "data": "<img src=\"quiver-image-url/CB2BC4DBD2F83A123B51070090460987.png\" alt=\"Screen Shot 2016-04-16 at 3.38.09 PM.png\">"
+    },
+    {
+      "type": "text",
+      "data": "As you can see the footer has pulled up behind the other two elements and is acting strange, so it needs to be cleared to sit properly."
+    },
+    {
+      "type": "text",
+      "data": ""
+    }
+  ]
+}
